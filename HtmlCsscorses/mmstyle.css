@@ -1,0 +1,85 @@
+.body{
+    margin: 0px;
+}
+
+.headhome{
+    height: 250px;
+    background-image: url(M5.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+.navc{
+    position: absolute;
+    width: auto;
+}
+
+.topnav{
+    background-color: #99ccff73;
+    overflow: hidden;
+    margin-top: 93px;
+}
+
+.topnav a{
+    text-align: right;
+    padding: 20px 50px;
+    text-decoration: none;
+    float: right;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+}
+
+.topnav a:hover{
+    background-color: #0080ff87;
+    color: black;
+
+}
+
+.M1:hover{
+    background-image: url(M1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.M2:hover{
+    background-image: url(M2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+.topnav a.active{
+    background: #0080ff;
+    color: whitesmoke;
+}
+
+
+//جزء الصور 
+
+.MD{
+    height: 250px;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.Makkah{
+    height: 250px;
+    width: 250px;
+    background-image: url(M5.png);
+    background-position: right;
+     margin: 0px;
+}
+
+
+.Madina{
+    height: 250px;
+    width: 250px;
+    background-image: url(M5.png);
+    background-position: left;
+     margin: 0px;
+}
+
