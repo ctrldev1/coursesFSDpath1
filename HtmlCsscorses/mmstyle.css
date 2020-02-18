@@ -2,13 +2,16 @@
     margin: 0px;
 }
 
+.row{
+    height: 500px;
+
+}
+
 .headhome{
-    height: 250px;
     background-image: url(M5.png);
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
-
 }
 
 .navc{
@@ -19,7 +22,7 @@
 .topnav{
     background-color: #99ccff73;
     overflow: hidden;
-    margin-top: 93px;
+    margin-top: 190px;
 }
 
 .topnav a{
@@ -60,26 +63,33 @@
 //جزء الصور 
 
 .MD{
-    height: 250px;
-    background-size: cover;
+     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
 }
 
 .Makkah{
-    height: 250px;
-    width: 250px;
-    background-image: url(M5.png);
-    background-position: right;
-     margin: 0px;
+    margin: 0px;
+    overflow: initial; 
+    background-repeat: no-repeat;
+    position: relative;
+    height: 450px;
+    width: auto;
+    border-radius: 0px 0px 0px 20px;
 }
 
 
 .Madina{
-    height: 250px;
-    width: 250px;
-    background-image: url(M5.png);
-    background-position: left;
-     margin: 0px;
+    margin: 0px;
+    overflow:  hidden; 
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 450px;
+    width: auto;
+    border-radius: 0px 0px 20px 0px;
+
 }
+
+
+
 
