@@ -1,10 +1,10 @@
 .body{
     margin: 0px;
+    background-color: rgb(233, 233, 233);
 }
 
 .row{
     height: 500px;
-
 }
 
 .headhome{
@@ -12,6 +12,9 @@
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
+    border-bottom: solid 10px  rgb(233, 233, 233);
+    ;
+
 }
 
 .navc{
@@ -90,6 +93,107 @@
 
 }
 
+.container {
+    position: relative;
+     color: white;
+  }
+
+.ma1{
+    position: absolute;
+    top: 91%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 129, 0.589);
+    border: solid gray 2px;
+    border-radius: 0px 0px 0px 10px;
+    width: 100px;
+    height: 35px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+    font-size: 22px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+     
+}
+
+.ma2{
+    position: absolute;
+    top: 9%;
+    left: 56px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 129, 0.43);
+    border: solid #808080ab 2px;
+    border-radius: 0px 0px 10px 0px;
+    width: 100px;
+    height: 35px;
+    text-align: right;
+    padding: 10px 10px 0px 0px;
+    font-size: 22px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.d1:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.d1:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.d1:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+.d1:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+
+.d2:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.d2:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.d2:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+.d2:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 
+
+.footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    color: white;
+    text-align: center;
+    height: auto;
+    margin-top: -4px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+ }
