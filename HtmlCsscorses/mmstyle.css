@@ -73,29 +73,34 @@
 
 .Makkah{
     margin: 0px;
-    overflow: initial; 
+    overflow: inherit; 
     background-repeat: no-repeat;
-    position: relative;
+    position: static;
+    z-index: 0%;
     height: 450px;
-    width: auto;
-    border-radius: 0px 0px 0px 20px;
-}
+     border-radius: 0px 0px 0px 20px;
+ }
 
 
 .Madina{
-    margin: 0px;
-    overflow:  hidden; 
+    margin-left: 1px;
+    overflow:  inherit; 
     background-repeat: no-repeat;
     position: absolute;
+    z-index: 0%;
     height: 450px;
-    width: auto;
-    border-radius: 0px 0px 20px 0px;
-
+     border-radius: 0px 0px 20px 0px;
+    left: 29%; 
+    top: 0;
 }
 
 .container {
     position: relative;
-     color: white;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    height: auto;
   }
 
 .ma1{
@@ -185,9 +190,9 @@
 
 
 .footer {
-    position: absolute;
-    left: 0;
+    position: static;
     width: 100%;
+    left: 0;
     background-color: rgb(233, 233, 233);
     color: white;
     text-align: center;
